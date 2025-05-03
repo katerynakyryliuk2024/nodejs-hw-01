@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "27daf340-aadf-4e69-b5f9-44d07cec804f",
+    "name": "Jimmie Baumbach IV",
+    "phone": "746-624-6984",
+    "email": "Antonette_Emmerich74@gmail.com",
+    "job": "Central Applications Planner"
+  },
+  {
+    "id": "f6e1153a-534f-495e-91a2-bbec0a64c4df",
+    "name": "Eugene Mayer-Sanford",
+    "phone": "(959) 238-0801 x3237",
+    "email": "Simeon_Breitenberg@hotmail.com",
+    "job": "Dynamic Brand Strategist"
+  },
+  {
+    "id": "9a94306e-33c1-4d5e-946a-d3303c03e430",
+    "name": "Claire Emard III",
+    "phone": "816.465.4168",
+    "email": "Kacey83@hotmail.com",
+    "job": "Forward Accounts Manager"
+  },
+  {
+    "id": "bdac1f7b-70c2-4d45-a8df-cdd23fb32529",
+    "name": "Sonja Armstrong",
+    "phone": "1-820-713-7715",
+    "email": "Mara51@gmail.com",
+    "job": "Chief Factors Coordinator"
+  },
+  {
+    "id": "0e927c2e-0a95-4239-8c03-1c22aba6f234",
+    "name": "Sam Weber",
+    "phone": "1-925-710-2102",
+    "email": "Jevon_Marvin@yahoo.com",
+    "job": "Global Implementation Planner"
+  },
+  {
+    "id": "b0872a5a-84e7-4c83-b121-075baea16d09",
+    "name": "Luther West",
+    "phone": "(280) 924-2599",
+    "email": "Ashleigh_Leffler@gmail.com",
+    "job": "Senior Marketing Agent"
+  }
+]
