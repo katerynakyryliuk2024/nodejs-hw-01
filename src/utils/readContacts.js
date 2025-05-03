@@ -2,10 +2,7 @@ import { PATH_DB } from '../constants/contacts.js';
 import * as fs from 'node:fs/promises';
 
 export const readContacts = async () => {
-  try {
-    const contacts = fs.readFile(PATH_DB, { encoding: 'utf-8' });
-    console.log(contacts);
-  } catch (error) {
-    console.log(error);
-  }
+  const contacts = await fs.readFile(PATH_DB, 'utf-8');
+  const parseContacts = JSON.parse(contacts);
+  return console.log(parseContacts);
 };
