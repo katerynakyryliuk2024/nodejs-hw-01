@@ -8,8 +8,8 @@ const generateContacts = async (number) => {
     const contacts = createFakeContact();
     randomGenerateContacts.push(contacts);
   }
-  const newArr = readContacts.concat(randomGenerateContacts);
-  writeContacts(newArr);
+  const newArr = await readContacts().concat(randomGenerateContacts);
+  await writeContacts(newArr);
 };
 
 generateContacts(5);
