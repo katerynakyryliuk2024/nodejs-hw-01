@@ -8,7 +8,8 @@ export const addOneContact = async (number) => {
     const contacts = createFakeContact();
     randomGenerateContacts.push(contacts);
   }
-  const newArr = await readContacts().concat(randomGenerateContacts);
+  const dbContacts = await readContacts();
+  const newArr = dbContacts.concat(randomGenerateContacts);
   await writeContacts(newArr);
 };
 
